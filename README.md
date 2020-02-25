@@ -3,4 +3,4 @@
 
 GloBI configuration to help index TAMUIC / Texas A&M University / Texas A&M University Insect Collection
 
-To be made available through http://globalbioticinteractions.org  .
+To be made available through http://globalbioticinteractions.org .
