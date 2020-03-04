@@ -1,24 +1,5 @@
 {
-  "@context": [
-    "http://www.w3.org/ns/csvw",
-    {
-      "@language": "en"
-    }
-  ],
-  "rdfs:comment": [
-    "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
-  ],
-  "tables": [
-    {
-      "tableSchema": "schema.json",
-      "url": "data.csv",
-      "dcterms:bibliographicCitation": "TAMUIC / Texas A&M University / Texas A&M University Insect Collection",
-      "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002444",
-      "interactionTypeName": "parasite of",
-      "headerRowCount": 1,
-      "null": [
-        ""
-      ]
-    }
-  ]
+  "format": "application/dwca",
+  "citation": "Texas A&M University Insect Collection",
+  "url": "https://scan-bugs.org/portal/content/dwca/TAMU-TAMUIC_DwC-A.zip"
 }
