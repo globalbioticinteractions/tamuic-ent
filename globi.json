@@ -1,5 +1,208 @@
 {
-  "format": "application/dwca",
-  "citation": "Texas A&M University Insect Collection",
-  "url": "https://scan-bugs.org/portal/content/dwca/TAMU-TAMUIC_DwC-A.zip"
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "TAMUdataFeb2022.csv.gz",
+    "dcterms:bibliographicCitation" : "Texas A&M University Insect Collection",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceOccurrenceId",
+        "titles" : "occurrenceid",
+        "datatype" : "string"
+      }, {
+        "name" : "ModifiedDate",
+        "titles" : "ModifiedDate",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfRecord",
+        "titles" : "basisOfRecord",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceInstitutionCode",
+        "titles" : "institutionCode",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceCollectionCode",
+        "titles" : "collectionCode",
+        "datatype" : "string"
+      }, {
+        "name" : "Identifier",
+        "titles" : "Identifier",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubspecificEpithetName",
+        "titles" : "subspecies",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonAuthorship",
+        "titles" : "author",
+        "datatype" : "string"
+      }, {
+        "name" : "identificationQualifier",
+        "titles" : "identificationQualifier",
+        "datatype" : "string"
+      }, {
+        "name" : "nomenclaturalCode",
+        "titles" : "nomenclaturalCode",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "stateProvince",
+        "titles" : "stateProvince",
+        "datatype" : "string"
+      }, {
+        "name" : "County",
+        "titles" : "County",
+        "datatype" : "string"
+      }, {
+        "name" : "Locality",
+        "titles" : "Locality",
+        "datatype" : "string"
+      }, {
+        "name" : "VerbatimLocality",
+        "titles" : "VerbatimLocality",
+        "datatype" : "string"
+      }, {
+        "name" : "minimumElevationInMeters",
+        "titles" : "minimumElevationInMeters",
+        "datatype" : "string"
+      }, {
+        "name" : "maximumElevationInMeters",
+        "titles" : "maximumElevationInMeters",
+        "datatype" : "string"
+      }, {
+        "name" : "StartDate",
+        "titles" : "StartDate",
+        "datatype" : "string"
+      }, {
+        "name" : "EndDate",
+        "titles" : "EndDate",
+        "datatype" : "string"
+      }, {
+        "name" : "StartDateMonth",
+        "titles" : "StartDateMonth",
+        "datatype" : "string"
+      }, {
+        "name" : "StartDateDay",
+        "titles" : "StartDateDay",
+        "datatype" : "string"
+      }, {
+        "name" : "StartDateYear",
+        "titles" : "StartDateYear",
+        "datatype" : "string"
+      }, {
+        "name" : "EndDateMonth",
+        "titles" : "EndDateMonth",
+        "datatype" : "string"
+      }, {
+        "name" : "EndDateDay",
+        "titles" : "EndDateDay",
+        "datatype" : "string"
+      }, {
+        "name" : "EndDateYear",
+        "titles" : "EndDateYear",
+        "datatype" : "string"
+      }, {
+        "name" : "PrimaryCollectorLastName",
+        "titles" : "PrimaryCollectorLastName",
+        "datatype" : "string"
+      }, {
+        "name" : "PrimaryCollectorInitials",
+        "titles" : "PrimaryCollectorInitials",
+        "datatype" : "string"
+      }, {
+        "name" : "AllCollectorsReversedNames",
+        "titles" : "AllCollectorsReversedNames",
+        "datatype" : "string"
+      }, {
+        "name" : "AssociatedCollectors",
+        "titles" : "AssociatedCollectors",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifestageName",
+        "titles" : "lifeStage",
+        "datatype" : "string"
+      }, {
+        "name" : "organismQuantity",
+        "titles" : "organismQuantity",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "decimalLat",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "decimalLon",
+        "datatype" : "string"
+      }, {
+        "name" : "geodeticDatum",
+        "titles" : "geodeticDatum",
+        "datatype" : "string"
+      }, {
+        "name" : "georeferenceProtocol",
+        "titles" : "georeferenceProtocol",
+        "datatype" : "string"
+      }, {
+        "name" : "georeferenceSources",
+        "titles" : "georeferenceSources",
+        "datatype" : "string"
+      }, {
+        "name" : "georeferenceVerificationStatus",
+        "titles" : "georeferenceVerificationStatus",
+        "datatype" : "string"
+      }, {
+        "name" : "GeoreferencedBy",
+        "titles" : "GeoreferencedBy",
+        "datatype" : "string"
+      }, {
+        "name" : "georeferenceDate",
+        "titles" : "georeferenceDate",
+        "datatype" : "string"
+      }, {
+        "name" : "samplingProtocol",
+        "titles" : "samplingProtocol",
+        "datatype" : "string"
+      }, {
+        "name" : "occurrenceRemarks",
+        "titles" : "occurrenceRemarks",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexName",
+        "titles" : "Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "associatedTaxa",
+        "titles" : "Habitat",
+        "datatype" : "string"
+      }, {
+        "name" : "associatedTaxaVerbatim",
+        "titles" : "associatedTaxa",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
 }
